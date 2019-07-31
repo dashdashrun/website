@@ -1,26 +1,26 @@
-<footer class="page-footer dash-orange">
+<footer class="page-footer dash-orange white-text">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">Finish Line</h5>
+                <h5 class="pixel-font">Finish Line</h5>
                 <p class="grey-text text-lighten-4">
                     Well done for making it to the end.
                 </p>
                 <img src="/assets/a.png" width="200" alt="">
             </div>
             <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5  class="pixel-font">Links</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="https://primevr.io" target="_blank">PrimeVR</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://twitter.com/dashdashrungame" target="_blank">@DashDashRunGame</a></li>
-                    <li><a class="grey-text text-lighten-3" href="mailto:contact@primevr.io" target="_blank">contact@primevr.io</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{site.company_site}}" target="_blank">PrimeVR</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://twitter.com/{{ site.twitter }}" target="_blank">@DashDashRunGame</a></li>
+                    <li><a class="grey-text text-lighten-3" href="mailto:{{site.email}}" target="_blank">{{site.email}}</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="footer-copyright">
-        <div class="container">
-            © 2017-2019 PrimeVR Inc.
+        <div class="container center">
+            © 2017-{{ site.time | date: "%Y" }} {{ site.company }}
         </div>
     </div>
 </footer>

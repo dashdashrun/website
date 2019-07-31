@@ -1,3 +1,7 @@
+.pixel-font {
+    font-family: 'Press Start 2P', cursive;
+}
+
 .full-height-m {
     height: 100vh;
 }
@@ -10,6 +14,10 @@
 
 .no-padding {
     padding: 0 !important;
+}
+
+.no-padding-top {
+    padding-top: 0 !important;
 }
 
 .align-bottom {
@@ -30,6 +38,11 @@
     position: absolute;
     top: 0;
     overflow: hidden;
+    background-image: url(/assets/a.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 40vw;
     /* pointer-events: none; */
     min-width: 100%;
     min-height: 100%;
@@ -62,7 +75,6 @@
 section {
     padding-top: 4em;
     padding-bottom: 4em;
-
 }
 
 .btn-clear-border {
