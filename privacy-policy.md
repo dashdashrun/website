@@ -4,12 +4,6 @@ title: {{site.company}}
 description: {{ site.description }}
 order:
 ---
-<main class="dash-blue white-text">
-
-
-<!-- // HERO -->
-<section id="home" class="no-padding">
- <div>
    **PRIMEVR INC. PRIVACY POLICY**
 
 Last Updated September 9, 2021
@@ -263,9 +257,3 @@ described in it.
 If you have any questions about our 
 Privacy Policy or information practices, please feel free to contact us 
 at our designated request address: [contact@primevr.io](mailto:contact@primevr.io)
-  </div>
-</section>
-
-
-
-</main>
